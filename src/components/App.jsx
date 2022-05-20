@@ -15,15 +15,15 @@ export default function App() {
     
     switch (name) {
       case 'good':
-        setGood(good => good + 1);
+        setGood(good + 1);
         break;
       
       case 'neutral':
-        setNeutral(neutral => neutral + 1);
+        setNeutral(neutral + 1);
         break;
       
       case 'bad':
-        setBad(bad => bad + 1);
+        setBad(bad + 1);
         break;
       
       default:
