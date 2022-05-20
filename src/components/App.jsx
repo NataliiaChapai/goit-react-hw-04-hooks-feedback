@@ -49,8 +49,9 @@ export default function App() {
               options={Object.keys(reviews)}
               onLeaveFeedback={onBtnClick}
             />
-          </Section>
-          <Section title="Statistics">
+        </Section>
+      
+        <Section title="Statistics">
           {countTotalFeedback() === 0 ? (
               <Notification message="There is no feedback" />) : (
               <Statistics
@@ -61,7 +62,7 @@ export default function App() {
                 percentage={countPositiveFeedbackPercentage()}
               />
             )}
-          </Section>
+        </Section>
         </div>
     );
     
