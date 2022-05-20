@@ -1,0 +1,10 @@
+.statistics {
+  width: 100%;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.title {
+  margin: 0 0 30px 0;
+}

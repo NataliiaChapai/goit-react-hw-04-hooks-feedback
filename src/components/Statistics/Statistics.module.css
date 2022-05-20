@@ -1,0 +1,17 @@
+.statList {
+  padding: 0;
+}
+
+.statItem {
+  display: flex;
+  width: 33%;
+  font-weight: 600;
+}
+
+.statItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.count {
+  margin-left: 10px;
+}
